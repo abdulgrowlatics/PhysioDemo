@@ -21,7 +21,7 @@ def get_image_as_base64(path):
 
 def display_title():
     # Read your local image to get the base64 encoded version
-    logo_base64 = get_image_as_base64("PTIcon.jpg.crdownload")
+    logo_base64 = get_image_as_base64("PTIcon.jpg.crdownload.jpg")
     
     st.markdown(
         f"""
