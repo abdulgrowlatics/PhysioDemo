@@ -18,7 +18,7 @@ def get_image_as_base64(path):
         return base64.b64encode(img_file.read()).decode('utf-8')
 
 def display_title():
-    logo_base64 = get_image_as_base64("PTIcon.jpg.crdownload")
+    logo_base64 = get_image_as_base64("PTIcon.jpg.crdownload.jpg")
     st.markdown(f"""
         <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
